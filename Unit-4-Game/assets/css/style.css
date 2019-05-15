@@ -1,0 +1,39 @@
+ body {
+    background-color: white;
+    text-align: center;
+    background-image: url("assets/images/Avengers_Background.jpg"); 
+    background-size: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    }
+
+    
+  span{
+    background-color: white;
+}
+
+#random-num{
+    color: blue;
+    font-weight: bold;
+}
+
+#my-count{
+    color: orange;
+    font-weight: bold;
+}
+
+
+    }
+
+  @media screen and (max-width: 550px){
+    body{
+    /* background: lightcyan; */
+    max-width: 376px;
+    text-align: center!important;
+    margin: auto;
+    overflow-x: hidden;
+    justify-content: center;
+   }
+  }
+    
+
