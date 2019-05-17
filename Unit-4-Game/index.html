@@ -25,6 +25,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
    
         <title>Defeat Thanos</title>
+       
 </head>
 
 <body>
@@ -34,9 +35,7 @@
 
         <div class="row mt-3 mx-auto" id="row-top">
 
-            <!-- <div class="col-md-1"></div> -->
-
-            <div class="col-4">
+            <div class="col-md-4">
 
                 <!--The button you would click on for the the instructions to play -->
                 <button type="button" class="btn btn-secondary  btn-sm" data-toggle="modal" data-target="#exampleModalLong">
@@ -71,14 +70,14 @@
 
             </div>
            
-            <div class="col-4">
+            <div class="col-md-4">
                 <h3>Endgame: Defeat Thanos</h3>
             </div>
            
-            <div class="col-4 center">
+            <div class="col-md-4 center">
               
-                <button type="button" class="btn btn-secondary  btn-sm" data-toggle="modal" data-target="#gameReset">
-                    Restart Game
+                <button type="button" class="btn btn-secondary  btn-sm" data-target="#gameReset" onclick="gameReset()">
+                    Play
                 </button>
 
             </div>
@@ -88,15 +87,15 @@
         
         <hr>
         
-        <div class="row mt-3">
+        <div class="row">
 
-            <div class="col"></div>
+            <div class="col-sm-4"></div>
 
-            <div class="col-2 border " id="title_w">
-                <h4>Avengers (You) </h4>
+            <div class="col-2 border">
+                <h4>Avengers (You)</h4>
             </div>
 
-            <div class="col-2 border " id="title_l">
+            <div class="col-2 border" >
                 <h4>Thanos</h4>
             </div>
 
